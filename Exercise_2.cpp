@@ -18,7 +18,7 @@ public:
     }
 private:
 
-    void recurse(string s, int index, int i, int size, vector<string> path){
+    void recurse(string s){
 
         // base case
         // if we reach the end of the string, we have a valid partition
